@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import dark_arrow from "../../assets/dark-arrow.png";
 
 const Hero = () => {
   return (
@@ -10,7 +11,9 @@ const Hero = () => {
           Our cutting edge curriculum is designed to emopower students with the
           knowledge , skills and experiences designed to excel.
         </p>
-        <button className="btn">Explore more</button>
+        <button className="btn">
+          Explore more <img src={dark_arrow} alt="" />{" "}
+        </button>
       </div>
     </div>
   );
